@@ -1,0 +1,239 @@
+.headerbar {
+  width: 100%;
+  height: 150px;
+  background-color: #404040;
+  border-bottom: 1px black solid;
+}
+.headerlogo {
+  width:150px;
+  height:150px;
+  background-color: ;
+  float:left;
+}
+.headerlogoimg {
+  width:150px;
+  height:150px;
+}
+.emailbar {
+  width:100%;
+  height:60px;
+  background-color: ;
+  padding-top:20px;
+}
+.emailparent {
+  float:right;
+  padding-right: 37px;
+}
+.emailbartext {
+  float:left;
+  height:35px;
+  margin-top:12.5px;
+  margin-bottom:12.5px;
+  line-height: 35px;
+  font-family: Catamaran;
+  color:white;
+  font-size: 1em;
+  padding-right:10px;
+}
+.emailtextbox {
+  width:200px;
+  height:35px;
+  margin-top:12.5px;
+  margin-bottom:12.5px;
+  padding-left: 5px;
+  padding-right:5px;
+  font-family: Catamaran;
+  font-size: 0.9em;
+  border-radius: 7.5px;
+  border: 1px black solid;
+}
+.submit {
+  width:70px;
+  height:35px;
+  border: 1px black solid;
+  border-radius: 7.5px;
+  font-family: Catamaran;
+  font-size: 0.9em;
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: #E6E6E6;
+
+}
+.menubar {
+  width:100%;
+  height:40px;
+  background-color: ;
+  padding-top: 26px;
+}
+.menuitem {
+  float:left;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.3em;
+  padding: 0 3px 0 3px;
+  background-color:;
+  color:white;
+  border-bottom: 2px white solid;
+  border-right: 2px white solid;
+  border-radius: 0px 0px 10px 0px;
+  font-family: Catamaran;
+}
+.menuitem:hover {
+  font-size: 1.4em;
+  border-bottom: 4px white solid;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.menuitemspace {
+  width:37px;
+  height:40px;
+  float:left;
+  background-color: ;
+}
+.topcenter {
+  display: table;
+  margin:0 auto;
+  width:700px;
+}
+.block {
+  width:100%;
+  height:100%;
+  background-color: #F9F9F9;
+}
+.slideshow {
+  max-width:900px;
+  min-width:700px;
+  margin:0 auto;
+  display:table;
+  overflow: hidden;
+}
+.slidehomepage img {
+  width:100%;
+  min-height:300px;
+  max-height: 400px;
+}
+.slidehomepage {
+  position:relative;
+}
+.block2 {
+  width:100%;
+  background-color: #F2F2F2;
+  float:left;
+  padding-top:20px;
+}
+.b2title {
+  font-family: Catamaran;
+  font-size: 1.9em;
+  width:120px;
+  padding-left:10px;
+  height:60px;
+  line-height: 60px;
+  background-color: ;
+  text-align: center;
+  float:left;
+  font-weight: bold;
+}
+.b2icon {
+  float:left;
+}
+.servicesicon {
+  float:left;
+  height:60px;
+}
+.center {
+  display: table;
+  margin: 0 auto;
+}
+.services {
+  width:620px;
+  background-color:;
+  padding-top: 20px;
+}
+.servicestitle {
+  background-color: ;
+  width:148px;
+  height:60px;
+  margin-bottom:20px;
+  font-family: Catamaran;
+  font-size: 1.3em;
+  float:left;
+  margin-right: 20px;
+  font-weight: bold;
+  border-right: 2px black solid;
+}
+.servicestext {
+  width:450px;
+  font-family: Catamaran;
+  font-size: 1.2em;
+  height:90px;
+  background-color: ;
+  float:left;
+}
+.block3 {
+  width:100%;
+  background-color: #E6E6E6;
+  float:left;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.teamblock {
+  width:250px;
+  height:360px;
+  margin-top:15px;
+  margin-bottom: 10px;
+  margin-right:20px;
+  background-color: #F2F2F2;
+  float:left;
+  border-radius: 40px;
+}
+.teamblock:hover {
+  box-shadow:0px 0px 20px #808080;
+  cursor: pointer;
+}
+.teampic {
+  width:250px;
+  padding:0px;
+  opacity: 0.9;
+  border-radius: 40px 40px 0 0;
+}
+.teamname {
+  font-family: Catamaran;
+  font-size: 1.75em;
+  width:250px;
+  height:60px;
+  background-color: ;
+  line-height: 60px;
+  text-align: center;
+}
+.teamposition {
+  font-family: Catamaran;
+  font-size: 1.3em;
+  width:250px;
+  height:30px;
+  background-color: ;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.extraaaa {
+
+}

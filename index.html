@@ -1,0 +1,158 @@
+<head>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  <link rel="icon" type="image/png" href="avalanceproductionslogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalance Prod.</title>
+</head>
+
+<body>
+
+  <div class="headerbar">
+    <div class="topcenter">
+      <div class="headerlogo">
+        <img class="headerlogoimg" src="avalanceproductionslogo2.png"/>
+      </div>
+      <div class="emailbar">
+        <div class="emailparent">
+          <div class="emailbartext"><span style="color:#FF9797;">Discount</span> e-mail newsletter:</div>
+          <div style="float:left;">
+          <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='';}"></iframe>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfk3FFUwSLeVSMe07gCu_1i-FMjfYPUqX9Qi55zF4TcBno1ag/formResponse" method="post" target="hidden_iframe"
+                    onsubmit="submitted=true;">
+            <input class="emailtextbox" size="" type="email" autocomplete="email" name="emailAddress" placeholder="Email address" required/>
+            <input class="submit" type="submit" value="Submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="menubar">
+        <div>
+          <div class="menuitemspace" style="width:10px;"></div>
+          <div class="menuitem" style="width:60px;">Home</div>
+          <div class="menuitemspace"></div>
+          <div class="menuitem" style="width:80px;">Services</div>
+          <div class="menuitemspace"></div>
+          <div class="menuitem" style="width:90px;">About Us</div>
+          <div class="menuitemspace"></div>
+          <div class="menuitem" style="width:130px;">Contact/Book</div>
+          <div class="menuitemspace" style="width:10px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="block">
+    <div class="slideshow">
+      <div class="slidehomepage">
+        <img src="htsw.jpg"/>
+      </div>
+      <div class="slidehomepage">
+        <img src="htsw2.jpg"/>
+      </div>
+      <div class="slidehomepage">
+        <img src="tripoliview.jpg"/>
+      </div>
+      <div class="slidehomepage">
+        <img src="cedar.png"/>
+      </div>
+      <div class="slidemarkerparent">
+        <span class="slidemarker"></span>
+        <span class="slidemarker"></span>
+        <span class="slidemarker"></span>
+        <span class="slidemarker"></span>
+      </div>
+    </div>
+    <div>Welcome to Avalance Productions!</div>
+  </div> -->
+
+  <div class="block2">
+
+    <div class="center">
+      <div class="b2icon"><img class="servicesicon" src="dj.svg"/></div>
+      <div class="b2title">Services</div>
+    </div>
+
+    <div class="center">
+      <div class="services">
+        <div class="servicestitle" style="color:#DE3434;">Private Parties</div>
+        <div class="servicestext">From birthday parties to holiday events to any other needs, Avalanche Productions is the way to go!</div>
+
+        <div class="servicestitle" style="color:#BD6395;">Sweet 16's</div>
+        <div class="servicestext">Want DJ's that are young, experienced, and knowledgeable with current music?</div>
+
+        <div class="servicestitle" style="color:#34A439;">Retail Stores</div>
+        <div class="servicestext">If your store is having a promotion and needs a DJ, go Avalanche!</div>
+
+        <div class="servicestitle" style="color:#346CA4;">School Events</div>
+        <div class="servicestext">We can serve your Prom to Homecoming to any other school events!</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="block3">
+
+    <div class="center">
+      <div class="b2icon"><img class="servicesicon" src="about-us.svg"/></div>
+      <div class="b2title">About Us</div>
+    </div>
+
+    <div class="center">
+      <div class="teamblock">
+        <div class="teampic">
+          <img class="teampic" src="htsw.jpg"/>
+          <div class="teamname">Daniel Banz</div>
+          <div class="teamposition">Owner, DJ, Emcee</div>
+        </div>
+      </div>
+
+      <div class="teamblock">
+        <div class="teampic">
+          <img class="teampic" src="htsw.jpg"/>
+          <div class="teamname">Farouk Marhaba</div>
+          <div class="teamposition">DJ, Emcee, Web Designer</div>
+        </div>
+      </div>
+
+      <div class="teamblock">
+        <div class="teampic">
+          <img class="teampic" src="htsw.jpg"/>
+          <div class="teamname">Brooks Cooper</div>
+          <div class="teamposition">DJ, Emcee</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slidehomepage");
+    var dots = document.getElementsByClassName("slidemarker");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activeslidemarker", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " activeslidemarker";
+    setTimeout(showSlides, 3000);
+}
+</script>
